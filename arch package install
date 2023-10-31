@@ -1,0 +1,20 @@
+#Essential package
+sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-dejavu ttf-liberation noto-fonts ttf-caladea ttf-carlito ttf-dejavu ttf-liberation noto-fonts ttf-opensans otf-overpass ttf-roboto tex-gyre-fonts ttf-ubuntu-font-family godot krita libreoffice-still neovim neofetch cmatrix
+
+#Paru
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+
+#Flatpak
+sudo pacman -S flatpak 
+flatpak install com.rtosta.zapzap com.github.tchx84.Flatseal io.github.flattool.Warehouse us.zoom.Zoom 
+
+#App via AUR
+paru -S vscodium-bin stacer-bin google-chrome
+
+#Zoom config
+cp ~/.var/app/us.zoom.Zoom/config/zoomus.conf ~/.config/
+#then enable wayland screensharing
+
+
