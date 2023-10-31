@@ -1,5 +1,5 @@
 #Essential package
-sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-dejavu ttf-liberation noto-fonts ttf-caladea ttf-carlito ttf-dejavu ttf-liberation noto-fonts ttf-opensans otf-overpass ttf-roboto tex-gyre-fonts ttf-ubuntu-font-family godot krita libreoffice-still neovim neofetch cmatrix git power-profiles-daemon ufw
+sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-dejavu ttf-liberation noto-fonts ttf-caladea ttf-carlito ttf-dejavu ttf-liberation noto-fonts ttf-opensans otf-overpass ttf-roboto tex-gyre-fonts ttf-ubuntu-font-family godot krita libreoffice-still neovim neofetch cmatrix git power-profiles-daemon ufw noto-fonts-emoji powerline powerline-fonts
 
 #Paru
 git clone https://aur.archlinux.org/paru.git
