@@ -1,0 +1,15 @@
+# Hope i will write bash script to automate these later :)
+
+debian-based:
+sudo apt install git curl apt-transport-https preload bleachbit tlp fastfetch lolcat btop cmatrix gamemode
+ubuntu:
+sudo apt install ubuntu-restricted-extras
+fedora:
+rpmfusion, multimedia codecs, essential copr
+arch:
+install paru
+other based: similar, just use what already in repo
+other: go, docker, chrome, spotify, vscode, zapzap, brave, discord, steam
+other-other: gamemaker, aseprite, krita, gimp, firacode nerd fonts
+terminal-prompt: starship
+terminal-emulator: try kitty
