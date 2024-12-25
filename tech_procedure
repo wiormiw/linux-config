@@ -1,7 +1,7 @@
 # Hope i will write bash script to automate these later :)
 
 # debian-based:
-sudo apt install git curl apt-transport-https preload bleachbit tlp lolcat btop cmatrix gamemode bash-completion nala
+sudo apt install git curl apt-transport-https preload bleachbit tlp lolcat btop cmatrix gamemode bash-completion nala wget
 
 # ubuntu:
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
