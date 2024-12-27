@@ -69,7 +69,7 @@ detect_distro() {
                 echo "Detected Fedora-based distro"
                 fedora_install
                 ;;
-            arch|manjaro)
+            arch)
                 echo "Detected Arch-based distro: $ID"
                 arch_install
                 ;;
