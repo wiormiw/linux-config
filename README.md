@@ -2,7 +2,8 @@
 
 My personal linux random stuff.
 
-*Currently running KDE Plasma.*
-
-Example setup:
+*KDE Plasma example setup*
 ![alt text](https://github.com/wiormiw/linux-config/blob/main/Example_KDE_Setup.png?raw=true)
+
+*Hyprland example setup*
+![alt text][(https://github.com/wiormiw/linux-config/blob/main/Hyprland-example-setup.jpg?raw=true)
