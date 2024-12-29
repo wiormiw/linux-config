@@ -71,7 +71,10 @@
     "return-type": "json",
     "exec": "~/.config/waybar/scripts/spotify.sh",
     "exec-if": "pgrep spotify",
-    "escape": true
+    "on-click": "~/.config/waybar/scripts/spotify.sh n",
+    "on-click-right": "~/.config/waybar/scripts/spotify.sh p",
+    "escape": true,
+    "tooltip-format": "Currently running song from Spotify.\nScroll Up: Next Song\nScroll Down: Previous Song\nMiddle Click: Loop Current Song"
   },
 
     // Tools
