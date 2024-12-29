@@ -8,4 +8,4 @@ My personal linux random stuff.
 
 *Hyprland example setup*
 
-![alt text](https://github.com/wiormiw/linux-config/blob/main/Hyprland-example-setup.jpg?raw=true)
+![alt text](https://github.com/wiormiw/linux-config/blob/main/Hyprland_example_setup.jpg?raw=true)
