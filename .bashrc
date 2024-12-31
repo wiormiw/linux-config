@@ -12,8 +12,14 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 # My Alias
-alias acleancache="sudo pacman -Scc"
+alias acachedef="paru -c && sudo pacman -Sc"
+alias acachemore="paru -c && sudo pacman -Scc"
 alias aorphan="sudo pacman -Rns $(pacman -Qdtq)"
+alias sdocker="sudo systemctl start docker.service docker.socket containerd.service"
+alias resdocker="sudo systemctl restart docker.service docker.socket containerd.service"
+alias stopdocker="sudo systemctl stop docker.service docker.socket containerd.service"
+alias statdocker="systemctl status docker.service docker.socket containerd.service"
+alias aurls="pacman -Qme"
 
 # Init
 fastfetch
