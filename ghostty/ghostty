@@ -1,0 +1,21 @@
+# Shell Integration
+shell-integration = bash
+shell-integration-features = true
+
+# Theme
+theme = catppuccin-macchiato
+
+# Fonts
+font-family = "MesloLGS Nerd Font"
+font-style-bold = MesloLGS Nerd Font Bold
+font-style-italic = MesloLGS Nerd Font Italic
+font-style-bold-italic = MesloLGS Nerd Font Bold Italic
+font-size = 11
+
+# Window
+window-height = 28
+window-width = 88
+window-save-state = never
+
+# Notification
+desktop-notifications = false
