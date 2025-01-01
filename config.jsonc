@@ -64,9 +64,33 @@
             "type": "memory"
         },
         {
+            "key": "│ {#54} swap   {#keys} │",
+            "type": "swap"
+        },
+        {
+            "key": "│ {#1} battery{#keys} │",
+            "type": "battery"
+        },
+        {
             "key": "│ {#36}󰩟 network {#keys}│",
             "type": "localip",
             "format": "{ipv4} ({ifname})"
+        },
+        {
+            "key": "│ {#61} tpm    {#keys} │",
+            "type": "tpm"
+        },
+        {
+            "key": "├───────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#60}󰔎 theme  {#keys} │",
+            "type": "theme"
+        },
+        {
+            "key": "│ {#37} media  {#keys} │",
+            "type": "media"
         },
         {
             "key": "├───────────┤",
@@ -80,6 +104,6 @@
         {
             "key": "╰───────────╯",
             "type": "custom"
-        }
+        },
     ]
 }
