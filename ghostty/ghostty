@@ -19,3 +19,16 @@ window-save-state = never
 
 # Notification
 desktop-notifications = false
+
+# Keybind
+keybind = shift+ctrl+q=close_surface
+
+# Split
+keybind = ctrl+h=new_split:up
+keybind = ctrl+j=new_split:down
+keybind = ctrl+k=new_split:left
+keybind = ctrl+l=new_split:right
+keybind = ctrl+shift+up=goto_split:top
+keybind = ctrl+shift+down=goto_split:bottom
+keybind = ctrl+shift+left=goto_split:left
+keybind = ctrl+shift+right=goto_split:right
