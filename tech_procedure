@@ -46,5 +46,7 @@ gamemaker, aseprite, krita, gimp, firacode nerd fonts
 #terminal-prompt: 
 starship
 
+# flameshot, copyq
+
 #terminal-emulator: 
 try kitty
