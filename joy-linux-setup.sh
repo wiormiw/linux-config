@@ -53,7 +53,7 @@ arch_install() {
 
     paru -Syu --noconfirm
     paru -S git curl preload bleachbit tlp lolcat btop cmatrix gamemode bash-completion nala wget \
-           mesa-vulkan-drivers steam starship kitty code google-chrome brave-bin discord spotify zapzap-bin gimp krita aseprite nerd-fonts-fira-code
+           mesa-vulkan-drivers steam starship kitty code google-chrome brave-bin discord spotify zapzap-bin gimp krita aseprite nerd-fonts-fira-code flameshot copyq
 }
 
 # Detect the Linux distribution
