@@ -1,4 +1,3 @@
-#
 # Slightly tweak Endeavouros-i3 config file
 # @wiormiw
 
@@ -393,6 +392,9 @@ exec --no-startup-id dex --autostart --environment i3
 # uncomment the next line, use arandr to setup displays and save the file as monitor:
 exec --no-startup-id ~/.screenlayout/monitor.sh
 
+# wallpaper
+exec --no-startup-id sleep 1 && feh --bg-fill /home/alwaysjoy/Pictures/anime/root.jpg
+
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
 
@@ -426,6 +428,9 @@ exec --no-startup-id /usr/bin/dunst
 # Autostart apps as you like
 #exec --no-startup-id sleep 2 && xfce4-terminal
 #exec --no-startup-id sleep 3 && thunar
+
+exec --no-startup-id flameshot
+exec --no-startup-id copyq
 
 ###############
 # system tray #
