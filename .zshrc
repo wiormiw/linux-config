@@ -201,6 +201,8 @@ alias resdocker="sudo systemctl restart docker.service docker.socket containerd.
 alias stopdocker="sudo systemctl stop docker.service docker.socket containerd.service"
 alias statdocker="systemctl status docker.service docker.socket containerd.service"
 
+# clear empty dir
+alias emptydir="find . -type d -empty -exec rmdir -v {} +"
 
 ## FASTFETCH
 fastfetch
