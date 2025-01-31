@@ -43,7 +43,7 @@ fi
 
 ### CHANGE TITLE OF TERMINALS
 case ${TERM} in
-  xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|alacritty|kitty|st|konsole*)
+  xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|alacritty|kitty|ghostty|st|konsole*)
     PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
         ;;
   screen*)
