@@ -177,11 +177,7 @@ alias l.='eza -al --color=always --group-directories-first ../' # ls on the PARE
 alias l..='eza -al --color=always --group-directories-first ../../' # ls on directory 2 levels up
 alias l...='eza -al --color=always --group-directories-first ../../../' # ls on directory 3 levels up
 
-# pacman
-alias pacsyu='sudo pacman -Syu'                  
-alias pacsyyu='sudo pacman -Syyu'                
-alias parsua='paru -Sua --noconfirm'             
-alias parsyu='paru -Syu --noconfirm'             
+# pacman            
 alias unlock='sudo rm /var/lib/pacman/db.lck'
 alias acachedef="paru -c && sudo pacman -Sc"
 alias acachemore="paru -c && sudo pacman -Scc"
