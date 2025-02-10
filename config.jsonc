@@ -15,7 +15,7 @@
         {
             "type": "os",
             "key": "OS  ",
-            "keyColor": "31",  // = color1
+            "keyColor": "31",
         },
         {
             "type": "kernel",
@@ -42,16 +42,26 @@
             "key": "WM  ",
             "keyColor": "36", 
         },
-	    {
-	        "type": "memory",
-	        "key": "MEM ",
-	        "keyColor": "33",
-	    },
-	    {
-	        "type": "uptime",
-	        "key": "UP  ",
-	        "keyColor": "32", 
-	    },
+        {
+            "type": "disk",
+            "key": "STO ",
+            "keyColor": "31",
+        },
+	{
+             "type": "memory",
+	     "key": "MEM ",
+	     "keyColor": "33",
+	},
+        {
+            "type": "swap",
+            "key": "SWP ",
+            "keyColor": "34",
+        },
+	{
+	     "type": "uptime",
+	     "key": "UP  ",
+	     "keyColor": "32", 
+	},
         "break",
     ]
 }
