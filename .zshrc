@@ -246,5 +246,10 @@ alias statdocker="systemctl status docker.service docker.socket containerd.servi
 # clear empty dir
 alias emptydir="find . -type d -empty -exec rmdir -v {} +"
 
+### INIT ###
+
+### FASTFETCH ###
+fastfetch
+
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
