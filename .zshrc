@@ -2,9 +2,14 @@
 export TERM="xterm-256color"                      # getting proper colors
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+
+# HOME KEY
+bindkey '^[[H' beginning-of-line
+
+# END KEY
+bindkey '^[[F' end-of-line
 
 ### PATH
 if [ -d "$HOME/.bin" ] ;
