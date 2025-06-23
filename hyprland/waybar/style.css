@@ -46,8 +46,12 @@ window#waybar.hidden {
     background: #e5afbc;
 }
 
+#workspaces button.active:hover {
+    color: #FFFFFF;
+}
+
 #workspaces button:hover {
-    background: #333333;
+    background: #9c6bd8;
 }
 
 #workspaces button.urgent {
