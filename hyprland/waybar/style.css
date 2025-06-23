@@ -32,8 +32,8 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-    padding: 1px 2px;  /* Adjusted padding to reduce height */
-    margin: 1px 2px;    /* Reduced margin slightly */
+    padding: 2px 3px;  /* Adjusted padding to reduce height */
+    margin: 2px 4px;    /* Reduced margin slightly */
     border-radius: 6px;
     color: #FFFFFF;
     background-color: #294459;
@@ -57,7 +57,7 @@ window#waybar.hidden {
 #workspaces {
     background-color: #111827;
     border-radius: 14px;
-    padding: 3px 6px;  /* Adjusted padding to reduce height */
+    padding: 6px 6px;  /* Adjusted padding to reduce height */
 }
 
 #window {
