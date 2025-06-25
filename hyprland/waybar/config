@@ -19,9 +19,10 @@
 	"custom/spotify"
     ],
     "modules-center": [
-	"clock#date"
+	"clock"
     ],
     "modules-right": [
+       "backlight",
        "custom/storage",
         "memory",
         "cpu",
