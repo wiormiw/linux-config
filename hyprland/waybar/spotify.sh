@@ -15,12 +15,4 @@ elif [[ $class == "stopped" ]]; then
   text=""
 fi
 
-case $1 in
-    n) playerctl --player=spotify next
-       ;;
-
-    p) playerctl --player=spotify previous
-       ;;
-esac
-
 echo -e "{\"text\":\""$text"\", \"class\":\""$class"\"}"
