@@ -1,7 +1,6 @@
-
 * {
     font-family: "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;  /* Slightly smaller font size */
+    font-size: 12px;  /* Slightly smaller font size */
     font-weight: 900;
     margin: 0;
     padding: 0;
@@ -32,9 +31,9 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-    padding: 2px 3px;  /* Adjusted padding to reduce height */
-    margin: 2px 4px;    /* Reduced margin slightly */
-    border-radius: 6px;
+    padding: 0px 3px;  /* Adjusted padding to reduce height */
+    margin: 1px 3px;    /* Reduced margin slightly */
+    border-radius: 8px;
     color: #FFFFFF;
     background-color: #294459;
     transition: all 0.3s ease-in-out;
