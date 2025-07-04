@@ -11,7 +11,7 @@
 /* Reset all styles */
 * {
     border: none;
-    border-radius: 3px;
+    border-radius: 3px; /* Default 3px */
     min-height: 0;
     margin: 0.2em 0.3em 0.2em 0.3em;
 }
@@ -23,7 +23,7 @@
     transition-property: background-color;
     transition-duration: 0.5s;
     border-radius: 0px;
-    margin: 0px 0px;
+    margin: 0px;
 }
 
 window#waybar.hidden {
@@ -33,7 +33,7 @@ window#waybar.hidden {
 #workspaces button {
     padding: 0px 3px;  /* Adjusted padding to reduce height */
     margin: 1px 3px;    /* Reduced margin slightly */
-    border-radius: 8px;
+    border-radius: 12px; /* Default perfect 8px */
     color: #FFFFFF;
     background-color: #294459;
     transition: all 0.3s ease-in-out;
@@ -59,7 +59,7 @@ window#waybar.hidden {
 
 #workspaces {
     background-color: #111827;
-    border-radius: 14px;
+    border-radius: 20px; /* Default 14 px */
     padding: 6px 6px;  /* Adjusted padding to reduce height */
 }
 
@@ -68,7 +68,7 @@ window#waybar.hidden {
     font-size: 15px;   /* Slightly smaller font size */
     font-weight: 800;
     color: #ffffff;
-    border-radius: 14px;
+    border-radius: 20px;
     padding: 3px 6px;  /* Reduced padding */
     margin: 2px;
     opacity: 1;
@@ -103,27 +103,27 @@ window#waybar.hidden {
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.default {
-    background-color: #111827; 
-    border-radius: 14px;
+    background-color: #111827;
+    border-radius: 20px;
     padding: 6px;  /* Adjusted padding */
 }
 
 #custom-screenshot_t {
     background-color: #111827;
     color: #9c6bd8;
-    border-radius: 14px;
-    padding: 6px;
+    border-radius: 20px;
+    padding: 6px 6px 6px 11px;
 }
 
 #custom-spotify {
     background-color: #111827;
-    border-radius: 14px;
+    border-radius: 20px;
     padding: 3px 12px;
 }
 
 #tray {
     background-color: #111827;
-    border-radius: 14px;
+    border-radius: 20px;
     padding: 6px;  /* Adjusted padding */
 }
 
@@ -142,14 +142,14 @@ window#waybar.hidden {
 #custom-power {
     background-color: #111827;
     color: #FFFFFF;
-    border-radius: 14px;
+    border-radius: 20px;
     padding: 6px;
 }
 
 #custom-storage {
     background-color: #111827;
     color: #f6c667;
-    border-radius: 14px;
+    border-radius: 20px;
     padding: 6px;
 }
 
