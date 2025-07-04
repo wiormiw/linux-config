@@ -150,7 +150,7 @@ window#waybar.hidden {
     background-color: #111827;
     color: #f6c667;
     border-radius: 20px;
-    padding: 6px;
+    padding: 6px 8px 6px 6px;
 }
 
 #custom-launcher {
